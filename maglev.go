@@ -19,7 +19,6 @@ Package has no assumption on hash functions to use:
 	item := myhash("picture1", seedItem)
 	shard := table[item%tableSize]
 */
-
 package maglev
 
 import (
